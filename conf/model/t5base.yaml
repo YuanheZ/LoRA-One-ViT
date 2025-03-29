@@ -1,0 +1,13 @@
+name: t5-base
+type: ConditionalGeneration
+epochs: 1
+per_device_batch_size: 32
+real_batch_size: 32
+bf16: False
+eval_epochs: 1
+early_stopping_patience: 5
+max_length: 128
+logging_steps: 1
+learning_rate: 1e-4
+weight_decay: 0.0
+prec_reg: 1e-6
