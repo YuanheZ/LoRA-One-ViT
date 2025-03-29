@@ -1,0 +1,15 @@
+accelerate
+bitsandbytes
+datasets==2.19.1
+fire
+huggingface-hub
+hydra-core
+hydra-optuna-sweeper
+omegaconf
+pandas
+psutil
+regex
+transformers==4.40.2
+wandb
+flash-attn
+peft==0.10.0
